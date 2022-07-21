@@ -2,7 +2,7 @@
 A Dungeons &amp; Dragon (5e) Monsters Model using Open5e
 
 ## Open5e API
-The Open5e API provides programmatic access to all resources and rules included on this site.
+The Open5e API provides programmatic access to all resources and rules included on the site.
 Open5e API's documentation can be found [here](https://open5e.com/api-docs)
 
 ## Test Monster
