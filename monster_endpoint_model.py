@@ -4,7 +4,7 @@ from torch import _cudnn_rnn_flatten_weight
 
 class BasicsModel:
     def __init__(self, monster) -> None:
-        self.name = monster['name']
+        self.name = monster['name'] # models basic stats in their corresponding name
         self.size = monster['size']
         self.group = monster['group']
         self.type = monster['type']
@@ -14,7 +14,7 @@ class BasicsModel:
         self.hp = monster['hit_points']
         self.hp_dice = monster['hit_dice']
         self.speed = monster['speed']
-        self.base_stats = {'strengh': monster['strength'], 
+        self.base_stats = {'strengh': monster['strength'], # models ability stats in a dictionary
                            'dexterity': monster['dexterity'],
                            'constitution': monster['constitution'],
                            'intelligence': monster['intelligence'],
