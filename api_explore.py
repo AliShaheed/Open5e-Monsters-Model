@@ -13,4 +13,3 @@ for data in monster_data:
     print(data,':', monster_data[data])
 
 
-print(len(monster_data))
