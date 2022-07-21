@@ -1,6 +1,3 @@
-from numpy import size
-from torch import _cudnn_rnn_flatten_weight
-
 
 class BasicsModel:
     def __init__(self, monster) -> None:

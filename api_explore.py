@@ -12,4 +12,5 @@ monster_data = response.json()
 for data in monster_data:
     print(data,':', monster_data[data])
 
-
+print(monster_data['senses'])
+print(type(monster_data['senses']))
