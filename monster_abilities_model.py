@@ -1,5 +1,5 @@
 class AbilitiesModel:
-    def __init__(self, monster) -> None:
+    def __init__(self, monster) -> None: # models ability stats to their corresponding names
         self.saving_throws = {'strength_save': monster['strength_save'],
                               'dexterity_save': monster['dexterity_save'],
                               'constitution_save': monster['constitution_save'],

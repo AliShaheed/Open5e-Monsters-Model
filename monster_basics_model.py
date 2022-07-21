@@ -1,7 +1,7 @@
 
 class BasicsModel:
     def __init__(self, monster) -> None:
-        self.name = monster['name'] # models basic stats in their corresponding name
+        self.name = monster['name'] # models basic stats to their corresponding name
         self.size = monster['size']
         self.group = monster['group']
         self.type = monster['type']
